@@ -1,0 +1,41 @@
+{
+  "name": "information-security",
+  "version": "0.0.0",
+  "description": "FCC-infosec for certification",
+  "keywords": [
+    "FreeCodeCamp",
+    "helmet",
+    "express",
+    "information",
+    "security",
+    "helmetJS",
+    "JavaScript",
+    "backend"
+  ],
+  "homepage": "https://github.com/AlexWalker222/information-security#readme",
+  "bugs": {
+    "url": "https://github.com/AlexWalker222/information-security/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexWalker222/information-security.git"
+  },
+  "license": "ISC",
+  "author": "Alex Walker",
+  "type": "commonjs",
+  "stylelint": {
+    "plugins": [
+      "helmetJS",
+      "express"
+    ]
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node myApp.js",
+    "test": "test-a"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "helmet": "3.21.3"
+  }
+}
